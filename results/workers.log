@@ -1,0 +1,10 @@
+[1/10]    50.8s   50.8s ok workers_1_ciclo_s10.json
+[2/10]    80.6s   29.8s ok workers_2_ciclo_s10.json
+[3/10]   102.3s   21.6s ok workers_4_ciclo_s10.json
+[4/10]   130.7s   28.4s ok workers_8_ciclo_s10.json
+[5/10]   156.6s   25.9s ok workers_16_ciclo_s10.json
+[6/10]   214.5s   57.9s ok workers_1_reversion_s10.json
+[7/10]   255.0s   40.5s ok workers_2_reversion_s10.json
+[8/10]   276.7s   21.7s ok workers_4_reversion_s10.json
+[9/10]   298.9s   22.2s ok workers_8_reversion_s10.json
+[10/10]   329.2s   30.3s ok workers_16_reversion_s10.json

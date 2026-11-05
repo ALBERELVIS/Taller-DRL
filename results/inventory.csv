@@ -1,0 +1,45 @@
+id,elemento,origen,seccion,ubicacion,frase_clave
+min1,Implementar DQN (red objetivo + replay),enunciado ej.1,1,Tabla 1,red objetivo
+min2,Implementar A3C real asincrono,enunciado ej.1,1,Tabla 1,procesos asíncronos
+min3,Evaluar en los 4 generadores frente a referencias,enunciado ej.2,2,Tabla 3,Resultados de los mínimos
+min4,Ajuste de hiperparametros,enunciado ej.3,1,Tabla 2,Hiperparámetros elegidos en validación
+min5,Comparar DQN vs A3C vs Q-learning (rendimiento),enunciado ej.4,3,Tabla 5,DQN frente a Q-learning
+min6,Convergencia y tiempo de computo,enunciado ej.4,2,Tabla 4,Episodios hasta el 90%
+min7,Estrategia aprendida frente a la esperada,enunciado ej.4,2,Figura 1,Política greedy aprendida
+d1,Entorno sin modificar y simulador verificado,notebook 1,1,Tabla 1,Simulador vectorizado
+d2,Normalizacion del estado sin discretizar,notebook 4,1,Tabla 1,sin discretizar
+d3,Recompensa x100 y bootstrap en el limite de tiempo,notebook 4,1,Tabla 1,límite de tiempo
+d4,Protocolo de semillas disjuntas,notebook 5,1,Tabla 1,Semillas disjuntas
+d3b,Ultimo paso terminal frente a limite de tiempo (ablacion),revision externa,4,Tabla 6,Último paso terminal
+d6,Unidad de analisis de Wilcoxon (media de semillas por serie),revision externa,1,Tabla 1,media de las semillas en cada serie
+min6b,Tiempos sin carga en los 4 mercados,revision externa,2,Tabla 4,sin carga
+d5,Analisis previo de predictibilidad,notebook 2,1,texto,Qué se puede aprender
+st1,Regla unica de veredicto (Wilcoxon + IC jerarquico),plan 1,1,Tabla 1,Regla única
+st2,TOST de equivalencia,plan 1,1,Tabla 1,TOST
+st3,Familia confirmatoria Holm + exploratoria BH,plan 1,1,Tabla 1,Benjamini-Hochberg
+st4,Friedman + Nemenyi,plan 1,3,texto,Friedman
+st5,Potencia y efecto minimo detectable,plan 1,3,texto,efecto mínimo detectable
+st6,Cociente de capital,plan 2 (grupo 1),3,texto,cociente de capital
+p1,Oraculo con informacion oculta y % del margen capturado,plan 2 (grupo 1),3,Tabla 5,oráculo oculto
+p2,Mejor punto (parada temprana) frente a modelo final,plan 2 (ambos grupos),4,Tabla 6,Parada temprana por validación
+p3,Ensemble de 5 semillas,plan 2 (grupo 2),4,Tabla 6,Ensemble de las 5 semillas
+e81a,Variantes DQN: vanilla / red objetivo / Double,notebook 8.1,4,Tabla 6,Quitar la red objetivo
+e81b,Factor de descuento gamma,notebook 8.1,4,Tabla 6,DQN con γ=0.9
+e81c,Iteracion DQN regimenes 1000 ep y A3C reversion 3000 ep,notebook 8.1,4,Tabla 6,Más episodios
+e81d,A3C regimenes: 3 configuraciones elegidas en validacion,notebook 8.1,4,texto,A3C con 3000 episodios
+e81e,Escalado de A3C con el numero de workers,notebook 8.1,4,texto,16 workers
+e81f,Tiempos sin carga y determinismo,notebook 8.4,2,Tabla 4,deterministas
+e82,Generalizacion entre mercados,notebook 8.2,4,texto,no generalizan entre mercados
+e83,S&P 500 y test frente a estrategias aleatorias,notebook 8.3,4,texto,20 000 estrategias aleatorias
+e91,Mejor regla de umbrales (techo practico),notebook 9.1,3,Tabla 5,mejor regla de umbrales
+e92,Estado enriquecido (vol./MA y ventana),notebook 9.2,4,Tabla 6,Estado + ventana
+e93,Agente unico para los 4 mercados,notebook 9.3,4,Tabla 6,Un DQN para los 4 mercados
+e94,Comision y zona de no operar,notebook 9.4,4,Tabla 6,Robustez a la comisión
+e95,Recompensa sensible al riesgo (media-varianza y log),notebook 9.5,4,Tabla 6,Recompensa r−λr²
+e96a,PPO,notebook 9.6,4,Tabla 6,PPO (GAE + objetivo recortado)
+e96b,Dueling DQN,notebook 9.6,4,Tabla 6,Dueling DQN vs DQN
+e96c,Exploracion de PPO (entropia),notebook 9.6,4,texto,con entropía 0.2
+e96d,Expected SARSA frente a Q-learning,notebook 9.6,4,Tabla 6,Expected SARSA
+e97,Robustez estadistica entre semillas,notebook 9.7,3,texto,incertidumbre viene de las semillas
+c1,Conclusiones,plan 3.2,5,texto,Conclusiones y limitaciones
+c2,Limitaciones y descartes,plan 3.2,5,texto,Descartados por coste/beneficio

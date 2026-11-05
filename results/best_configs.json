@@ -1,0 +1,130 @@
+{
+ "dqn|ciclo": {
+  "lr": 0.0003,
+  "gamma": 0.5,
+  "eps_decay": 0.95,
+  "target_update": 1000,
+  "episodes": 400,
+  "eval_every": 10
+ },
+ "dqn|gbm": {
+  "lr": 0.001,
+  "gamma": 0.9,
+  "eps_decay": 0.99,
+  "target_update": 1000,
+  "episodes": 400,
+  "eval_every": 10
+ },
+ "dqn|reversion": {
+  "lr": 0.001,
+  "gamma": 0.5,
+  "eps_decay": 0.95,
+  "target_update": 250,
+  "episodes": 400,
+  "eval_every": 10
+ },
+ "dqn|regimenes": {
+  "lr": 0.0003,
+  "gamma": 0.5,
+  "eps_decay": 0.98,
+  "target_update": 1000,
+  "episodes": 400,
+  "eval_every": 10
+ },
+ "a3c|ciclo": {
+  "lr": 0.0003,
+  "gamma": 0.5,
+  "entropy": 0.001,
+  "n_steps": 20,
+  "episodes": 1200,
+  "workers": 4,
+  "eval_every": 40
+ },
+ "a3c|gbm": {
+  "lr": 0.0003,
+  "gamma": 0.99,
+  "entropy": 0.05,
+  "n_steps": 5,
+  "episodes": 1200,
+  "workers": 4,
+  "eval_every": 40
+ },
+ "a3c|reversion": {
+  "lr": 0.0001,
+  "gamma": 0.99,
+  "entropy": 0.05,
+  "n_steps": 20,
+  "episodes": 1200,
+  "workers": 4,
+  "eval_every": 40
+ },
+ "a3c|regimenes": {
+  "lr": 0.0001,
+  "gamma": 0.5,
+  "entropy": 0.001,
+  "n_steps": 20,
+  "episodes": 1200,
+  "workers": 4,
+  "eval_every": 40
+ },
+ "qlearning|ciclo": {
+  "alpha": 0.05,
+  "gamma": 0.9,
+  "eps_decay": 0.99,
+  "n_bins": 10,
+  "episodes": 2000,
+  "eval_every": 25
+ },
+ "qlearning|gbm": {
+  "alpha": 0.1,
+  "gamma": 0.9,
+  "eps_decay": 0.995,
+  "n_bins": 16,
+  "episodes": 2000,
+  "eval_every": 25
+ },
+ "qlearning|reversion": {
+  "alpha": 0.05,
+  "gamma": 0.99,
+  "eps_decay": 0.995,
+  "n_bins": 16,
+  "episodes": 2000,
+  "eval_every": 25
+ },
+ "qlearning|regimenes": {
+  "alpha": 0.05,
+  "gamma": 0.99,
+  "eps_decay": 0.995,
+  "n_bins": 16,
+  "episodes": 2000,
+  "eval_every": 25
+ },
+ "ppo|ciclo": {
+  "lr": 0.0003,
+  "gamma": 0.5,
+  "entropy": 0.0,
+  "episodes": 2400,
+  "eval_every": 32
+ },
+ "ppo|gbm": {
+  "lr": 0.001,
+  "gamma": 0.99,
+  "entropy": 0.01,
+  "episodes": 2400,
+  "eval_every": 32
+ },
+ "ppo|reversion": {
+  "lr": 0.001,
+  "gamma": 0.9,
+  "entropy": 0.0,
+  "episodes": 2400,
+  "eval_every": 32
+ },
+ "ppo|regimenes": {
+  "lr": 0.001,
+  "gamma": 0.99,
+  "entropy": 0.0,
+  "episodes": 2400,
+  "eval_every": 32
+ }
+}
